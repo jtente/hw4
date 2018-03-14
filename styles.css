@@ -1,0 +1,89 @@
+
+
+body {
+  width: 1250px;
+  margin:10px auto;
+  background-color: AliceBlue;
+  }
+
+nav{font-family: 'Orbitron', sans-serif;
+
+}
+
+
+.display-3{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.jumbotron {
+  background-image: url("jumbotron.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.subhead{
+    font-family: Poynter;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    margin:0 auto;
+    position:relative;
+    text-align:center;
+    background-color: white;
+}
+
+.cardWeather{
+  align-items: center;
+}
+
+
+.topStory{
+  color: blue;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.guardianColumn {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+    text-align: justify;
+}
+
+.guardian {
+    padding: 12px;
+    border: 1px solid lightblue;
+    background-color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.pokerAd{
+  align-items: center
+
+}
+
+.amazon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+
+.card{
+  border: 1px solid lightblue;
+
+}
